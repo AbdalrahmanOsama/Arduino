@@ -30,8 +30,8 @@
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "The-RisenCaesar";
-char pass[] = "Caesar_51247";
+char ssid[] = "AOA-Home";
+char pass[] = "AOA_11216&aoa";
 
 // Hardware Serial on Mega, Leonardo, Micro...
 //#define EspSerial Serial1
@@ -41,7 +41,7 @@ char pass[] = "Caesar_51247";
 SoftwareSerial EspSerial(2, 3); // TX, RX for ESP
 
 // Your ESP8266 baud rate:
-#define ESP8266_BAUD 38400
+#define ESP8266_BAUD 115200
 
 ESP8266 wifi(&EspSerial);
 

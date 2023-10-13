@@ -10,7 +10,7 @@ int BUZZER = 2;
 int REDled = 3;
 int GREENled = 5;
 int BLUEled = 6;
-const int BUTTONpin = 7;
+int BUTTONpin = 7;
 int PUMPrelay = 13;
 int LIGHTSrelay = 12;
 
@@ -21,11 +21,12 @@ int LDRsensor = A3;
 
 //variables
 int GASvalue;
-float TEMPERATUREvalue;
-float HUMIDITYvalue;
 int MOISTUREvalue;
 int LDRvalue;
+float TEMPERATUREvalue;
+float HUMIDITYvalue;
 float inLDRvalue;
+
 String MOISTURElevel;
 String PUMPstate;
 String LIGHTSstate;
