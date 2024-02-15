@@ -30,8 +30,8 @@
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "AOA-Home";
-char pass[] = "AOA_11216&aoa";
+char ssid[] = "The-RisenCaesar";
+char pass[] = "The_Risen_C@esar_51247";
 
 // Hardware Serial on Mega, Leonardo, Micro...
 //#define EspSerial Serial1
